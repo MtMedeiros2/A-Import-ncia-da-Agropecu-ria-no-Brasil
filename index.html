@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agropecuária Brasileira - Força que Alimenta o Mundo</title>
+<link rel="stylesheet" href="style.css">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f4f7f2;
+    color:#333;
+    line-height:1.7;
+}
+
+header{
+    position:relative;
+    text-align:center;
+    color:white;
+}
+
+header img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+    filter: brightness(0.6);
+}
+
+header .header-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    max-width:800px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+nav{
+    background:#1f5d2e;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+h2{
+    color:#1f5d2e;
+    margin-bottom:20px;
+    font-size:2rem;
+    text-align:center;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:center;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.numero{
+    font-size:2.5rem;
+    color:#2e7d32;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.frigorificos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
+
+.frig{
+    background:white;
+    border-left:6px solid #2e7d32;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+    transition: transform 0.3s;
+}
+
+.frig:hover{
+    transform: translateY(-5px);
+}
+
+.frig img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#1f5d2e;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.highlight{
+    color:#2e7d32;
+    font-weight:bold;
+    display:block;
+    text-align:center;
+    margin-top:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <img src="https://via.placeholder.com/1600x400?text=Agropecuaria+Brasileira" alt="Campo verde brasileiro">
+    <div class="header-text">
+        <h1>Agropecuária Brasileira</h1>
+        <p>O Brasil é uma das maiores potências agropecuárias do planeta, produzindo alimentos que abastecem milhões de pessoas dentro e fora do país.</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#importancia">Importância</a>
+    <a href="#gado">Rebanho Bovino</a>
+    <a href="#frigorificos">Frigoríficos</a>
+    <a href="#exportacao">Exportação</a>
+</nav>
+
+<section id="importancia">
+    <h2>A Importância da Agropecuária</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+        A agropecuária é um dos principais pilares da economia brasileira. O setor gera milhões de empregos diretos e indiretos, movimenta a indústria, o transporte, a tecnologia e contribui significativamente para as exportações do país.
+    </p>
+</section>
+
+<section id="gado">
+    <h2>Rebanho Bovino Brasileiro</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://via.placeholder.com/400x150?text=Gado+no+Brasil" alt="Gado no Brasil">
+            <div class="numero">230+</div>
+            <h3>Milhões de Cabeças</h3>
+            <p>O Brasil possui aproximadamente mais de 230 milhões de cabeças de gado, um dos maiores rebanhos bovinos do mundo.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x150?text=Produção+de+Carne" alt="Produção de Carne">
+            <div class="numero">1º</div>
+            <h3>Entre os Líderes Mundiais</h3>
+            <p>O país está entre os maiores produtores e exportadores de carne bovina.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x150?text=Campo+Brasileiro" alt="Campo Brasileiro">
+            <div class="numero">27</div>
+            <h3>Estados Produtores</h3>
+            <p>A pecuária está presente em todo o território nacional.</p>
+        </div>
+    </div>
+</section>
+
+<section id="frigorificos">
+    <h2>A Importância dos Frigoríficos</h2>
+
+    <div class="frigorificos">
+        <div class="frig">
+            <img src="https://via.placeholder.com/400x150?text=Frigorifico+Brasileiro" alt="Frigorífico Brasileiro">
+            <h3>Geração de Empregos</h3>
+            <p>Milhares de trabalhadores atuam em frigoríficos espalhados por todo o país.</p>
+        </div>
+
+        <div class="frig">
+            <img src="https://via.placeholder.com/400x150?text=Controle+Sanitario" alt="Controle Sanitário">
+            <h3>Qualidade e Segurança</h3>
+            <p>As unidades seguem padrões rigorosos de inspeção e rastreabilidade.</p>
+        </div>
+
+        <div class="frig">
+            <img src="https://via.placeholder.com/400x150?text=Desenvolvimento+Regional" alt="Desenvolvimento Regional">
+            <h3>Desenvolvimento Regional</h3>
+            <p>Muitas cidades dependem economicamente da atividade frigorífica.</p>
+        </div>
+    </div>
+</section>
+<section id="astra-foods">
+    <h2>Astra Foods: História e Importância para o Agronegócio Paranaense</h2>
+
+    <div class="frig">
+        <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=1200&q=80" alt="Pecuária brasileira">
+
+        <p>
+            Fundada em <strong>2007</strong>, a Astra Foods tornou-se uma das empresas mais importantes
+            do setor frigorífico nacional. Com sede em Cruzeiro do Oeste, no Paraná,
+            a empresa consolidou sua posição como o <strong>maior frigorífico bovino do estado do Paraná</strong>,
+            atendendo tanto o mercado brasileiro quanto clientes internacionais.
+        </p>
+
+        <br>
+
+        <p>
+            A empresa exporta carne bovina para diversos mercados ao redor do mundo,
+            estando habilitada para atender mais de 30 países. Sua atuação contribui
+            diretamente para a geração de empregos, fortalecimento da economia regional
+            e expansão da presença da carne brasileira no comércio internacional.
+        </p>
+
+        <br>
+
+        <p>
+            A Astra Foods investe continuamente em tecnologia, segurança alimentar,
+            qualidade dos processos e capacitação de colaboradores. Seu modelo de produção
+            segue rigorosos padrões sanitários e de controle de qualidade, garantindo
+            produtos competitivos e seguros para consumidores de diferentes continentes.
+        </p>
+
+        <br>
+
+        <p>
+            Além da excelência produtiva, a empresa também destaca práticas de
+            sustentabilidade e ESG (ambiental, social e governança), buscando reduzir
+            impactos ambientais, preservar recursos naturais e promover o bem-estar
+            animal em toda a cadeia produtiva.
+        </p>
+
+        <br>
+
+        <blockquote style="
+            background:#f4f4f4;
+            border-left:5px solid #2e7d32;
+            padding:20px;
+            margin-top:20px;
+            border-radius:8px;">
+            A história da Astra Foods demonstra como a combinação entre tecnologia,
+            responsabilidade e qualidade pode fortalecer o agronegócio brasileiro e
+            ampliar a presença da carne bovina nacional nos mercados globais.
+        </blockquote>
+
+        <div style="text-align:center;margin-top:30px;">
+            <a href="https://www.astrafoods.com.br"
+               target="_blank"
+               style="
+               background:#2e7d32;
+               color:white;
+               padding:15px 30px;
+               text-decoration:none;
+               border-radius:8px;
+               font-weight:bold;">
+               Visitar o Site Oficial da Astra Foods
+            </a>
+        </div>
+    </div>
+</section>
+<section id="exportacao">
+    <h2>Exportação para o Mundo</h2>
+
+    <p style="text-align:center; max-width:800px; margin:auto;">
+        A carne bovina brasileira chega a dezenas de países em todos os continentes. Os frigoríficos brasileiros são fundamentais para conectar os produtores rurais aos mercados internacionais.
+    </p>
+
+    <p style="text-align:center; max-width:800px; margin:auto;">
+        Graças à eficiência logística, tecnologia de produção e capacidade industrial, o Brasil se consolidou como um dos maiores exportadores de proteína animal do planeta.
+    </p>
+
+    <p class="highlight">
+        "O agro brasileiro é responsável por alimentar milhões de pessoas e impulsionar o crescimento econômico do país."
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 - Portal Agropecuária Brasileira</p>
+    <p>Informações educativas sobre a importância do agronegócio no Brasil.</p>
+</footer>
+
+</body>
+</html>
